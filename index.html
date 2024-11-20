@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ふくやくお薬紹介ページ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ふくやくお薬紹介</h1>
+    </header>
+
+    <main>
+        <section id="form-section">
+            <h2>症状を入力してください</h2>
+            <form id="symptom-form">
+                <label for="symptom">症状:</label>
+                <input type="text" id="symptom" name="symptom" placeholder="例: 頭痛" required>
+                <button type="submit">検索</button>
+            </form>
+        </section>
+
+        <section id="result-section">
+            <h2>おすすめの薬</h2>
+            <ul id="medicine-list"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ふくやくお薬紹介プラットフォーム</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
