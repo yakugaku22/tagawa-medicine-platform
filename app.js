@@ -1,10 +1,3 @@
-// サンプルの薬データ
-const medicineData = {
-    "頭痛": ["イブプロフェン", "アセトアミノフェン", "ロキソプロフェン"],
-    "発熱": ["パラセタモール", "イブプロフェン"],
-    "咳": ["デキストロメトルファン", "ブロムヘキシン"]
-};
-
 // フォームの送信イベントを監視
 document.getElementById('symptom-form').addEventListener('submit', function(e) {
     e.preventDefault(); // ページリロードを防止
